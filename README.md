@@ -1,36 +1,89 @@
-# AdventureWorks Excel Sales & Profitability Analysis
+# AdventureWorks — Sales & Profitability Analysis
 
-## 📊 Project Overview
+## Project Overview
 
-An interactive **AdventureWorks Sales & Profitability Analysis** built in Microsoft Excel.
+An interactive **Sales, Profitability, and Returns Analysis** built in Microsoft Excel using the AdventureWorks dataset.
 
-The project transforms raw sales and returns data into interactive dashboards that provide a clear view of revenue, profit, customers, orders, product performance, geographic performance, and returns.
+The project transforms raw transactional, customer, product, geographic, and returns data into interactive analytical dashboards designed to monitor commercial performance, profitability, customer activity, product performance, and return behavior.
 
-## 🎯 Business Objectives
+The solution provides a consolidated view of business performance and enables users to explore trends and identify areas that require further investigation.
 
-- Monitor sales and profitability performance
-- Track key business KPIs
-- Analyze revenue trends over time
-- Identify top-performing products and categories
-- Compare sales performance across countries
-- Analyze customer and order activity
-- Monitor product returns and return rates
-- Identify products and categories with high return volumes
+---
 
-## 🛠️ Tools & Techniques
+## Business Domain
 
-- Microsoft Excel
-- Power Query
-- Pivot Tables
-- Pivot Charts
-- Slicers
-- Data Cleaning & Transformation
-- KPI Analysis
-- Interactive Dashboard Design
+**Retail & Sales Analytics**
 
-## 📁 Data
+The project focuses on analyzing retail sales operations across products, customers, categories, geographic markets, orders, and product returns.
 
-The analysis uses AdventureWorks datasets covering:
+Retail analytics enables organizations to understand sales performance, profitability, customer activity, product demand, geographic performance, and the financial impact of returns.
+
+---
+
+## Business Objectives
+
+The analysis is designed to support key business questions, including:
+
+- How is overall sales and profitability performance?
+- How are revenue and orders changing over time?
+- Which products and categories generate the highest sales and profit?
+- Which countries contribute the most revenue?
+- How active are customers and how does order activity change?
+- Which products and categories have the highest return volumes?
+- What is the return rate across different products and markets?
+- What potential revenue and profit are associated with returned products?
+
+---
+
+## Key Performance Indicators
+
+| KPI | Business Purpose |
+|---|---|
+| Revenue | Measure overall sales performance |
+| Profit | Evaluate overall profitability |
+| Profit Margin | Measure profitability relative to revenue |
+| Orders | Monitor transaction volume |
+| Active Customers | Measure customer activity |
+| Average Order Value | Evaluate average revenue per order |
+| Return Quantity | Monitor returned product volume |
+| Return Rate | Measure the proportion of products returned |
+| Return Cost | Measure the cost associated with returns |
+| Lost Revenue | Estimate revenue impact from returns |
+| Lost Profit | Evaluate profitability impact from returns |
+
+---
+
+## Tools & Techniques
+
+**Microsoft Excel**
+
+Used as the primary platform for data analysis, calculation, visualization, and dashboard development.
+
+**Power Query**
+
+Used for data import, cleaning, transformation, and preparation.
+
+**Pivot Tables**
+
+Used to aggregate and analyze sales, customer, product, geographic, and returns data.
+
+**Pivot Charts**
+
+Used to visualize trends and performance across different business dimensions.
+
+**Slicers**
+
+Used to provide interactive filtering and allow users to explore the dashboards dynamically.
+
+**Data Analysis**
+
+Used to identify trends, performance patterns, top-performing products, geographic differences, and return behavior.
+
+---
+
+## Dataset
+
+The analysis uses multiple AdventureWorks datasets covering different business entities:
 
 - Sales
 - Customers
@@ -41,9 +94,15 @@ The analysis uses AdventureWorks datasets covering:
 - Territories
 - Returns
 
-## 📈 Dashboard 1 — Sales Performance
+These datasets provide the foundation for analyzing sales transactions, customer activity, product performance, geographic distribution, and returns.
 
-The Sales Performance Dashboard includes:
+---
+
+# Dashboard 1 — Sales Performance
+
+The Sales Performance Dashboard provides a high-level view of commercial performance and allows users to analyze sales across multiple business dimensions.
+
+### Key KPIs
 
 - Revenue
 - Profit
@@ -51,6 +110,9 @@ The Sales Performance Dashboard includes:
 - Orders
 - Active Customers
 - Average Order Value (AOV)
+
+### Analysis
+
 - Revenue Trend
 - Orders by Category
 - Revenue by Country
@@ -58,55 +120,71 @@ The Sales Performance Dashboard includes:
 - Sales by Category
 - Profit by Category
 
-![Sales Performance Dashboard](sales-dashboard.png)
+### Business Questions
 
-## 🔄 Dashboard 2 — Returns Analysis
+The dashboard helps answer:
 
-The Returns Analysis Dashboard includes:
+- How is revenue performing over time?
+- Which categories generate the most revenue?
+- Which products are the top sales contributors?
+- Which countries generate the highest revenue?
+- Which categories contribute the most profit?
+- How does customer and order activity change over time?
+
+---
+
+# Dashboard 2 — Returns Analysis
+
+The Returns Analysis Dashboard focuses on understanding product return activity and its potential financial impact.
+
+### Key KPIs
 
 - Return Quantity
 - Return Rate
 - Return Cost
 - Lost Revenue
 - Lost Profit
+
+### Analysis
+
 - Return Trend
 - Returns by Country
 - Return Quantity by Category
 - Returns by Subcategory
 - Top 10 Returned Products
 
-![Returns Analysis Dashboard](returns-dashboard.png)
+### Business Questions
 
-## 🔍 Analysis Workflow
+The dashboard helps answer:
 
-1. Imported the raw AdventureWorks datasets
-2. Cleaned and prepared the data
-3. Organized lookup and transaction tables
-4. Built analytical calculations
-5. Created Pivot Tables and Pivot Charts
-6. Added interactive slicers for filtering
-7. Designed the Sales Performance Dashboard
-8. Designed the Returns Analysis Dashboard
-9. Extracted business insights from the results
-
-## 💡 Key Insights
-
-The dashboards make it possible to quickly identify:
-
-- Overall revenue and profitability performance
-- Sales trends across different periods
-- High-performing products and categories
-- Geographic differences in sales
-- Customer and order activity
-- Return patterns by country, category, and product
-- Potential revenue and profit losses caused by product returns
-
-## 👤 Author
-
-**Ahmed Yassin**
-
-Data Analyst | Excel | Power BI | SQL | Python
+- How is return activity changing over time?
+- Which countries have the highest return volumes?
+- Which categories experience the most returns?
+- Which products are returned most frequently?
+- What is the potential financial impact of returns?
+- Which products or categories may require further investigation?
 
 ---
 
-⭐ This project demonstrates practical Excel skills in data preparation, analysis, KPI development, visualization, and dashboard design.
+## Analysis Workflow
+
+```text
+Raw AdventureWorks Data
+          ↓
+Data Import
+          ↓
+Data Cleaning & Transformation
+          ↓
+Data Preparation
+          ↓
+Analytical Calculations
+          ↓
+Pivot Tables
+          ↓
+Pivot Charts
+          ↓
+Interactive Slicers
+          ↓
+Dashboard Development
+          ↓
+Business Analysis & Insights
