@@ -58,7 +58,7 @@ The Sales Performance Dashboard includes:
 - Sales by Category
 - Profit by Category
 
-![Sales Dashboard](Images/sales-dashboard.png)
+![Sales Performance Dashboard](sales-dashboard.png)
 
 ## 🔄 Dashboard 2 — Returns Analysis
 
