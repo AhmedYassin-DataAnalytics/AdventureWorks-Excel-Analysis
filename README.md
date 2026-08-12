@@ -75,7 +75,7 @@ The Returns Analysis Dashboard includes:
 - Returns by Subcategory
 - Top 10 Returned Products
 
-![Returns Analysis Dashboard](adventureworks_images/returns-dashboard.png)
+![Returns Analysis Dashboard](returns-dashboard.png)
 
 ## 🔍 Analysis Workflow
 
