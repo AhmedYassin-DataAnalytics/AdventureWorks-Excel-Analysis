@@ -58,7 +58,7 @@ The Sales Performance Dashboard includes:
 - Sales by Category
 - Profit by Category
 
-![Sales Performance Dashboard](adventureworks_images/sales-dashboard.png)
+![Sales Dashboard](Images/sales-dashboard.png)
 
 ## 🔄 Dashboard 2 — Returns Analysis
 
